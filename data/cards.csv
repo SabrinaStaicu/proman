@@ -1,0 +1,12 @@
+id,board_id,title,status_id,order
+1,1,new card 1,0,1
+2,1,new card 2,0,1
+3,2,in progress card,3,0
+4,3,adding a card,0,0
+5,3,in progress,1,0
+6,3,done,0,0
+9,1,in progress,2,0
+11,2,dddddddd,4,0
+12,3,eh,0,0
+13,1,ad,0,0
+10,4,card 1,0,0

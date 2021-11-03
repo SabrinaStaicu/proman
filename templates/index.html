@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>ProMan</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+    />
+
+    <link
+            rel="shortcut icon"
+            href="{{ url_for('static', filename='favicon/favicon.ico') }}"
+    />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}"
+    />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="{{ url_for('static', filename='favicon/favicon-96x96.png') }}"
+    />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}"
+    />
+
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='css/main.css') }}"
+    />
+
+    <script
+            type="module"
+            src="{{ url_for('static', filename='js/main.js') }}"
+            defer
+    ></script>
+</head>
+<body>
+<h1>ProMan</h1>
+
+<div class="mx-4">
+    <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#boardModal">Add
+        board
+    </button>
+</div>
+<div class="modal board-modal fade" id="boardModal" tabindex="-1" aria-labelledby="boardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="boardModalLabel">Board</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="js-board-form" id="form-board">
+                    <div class="mb-3">
+                        <label for="board-name" class="col-form-label">Title:</label>
+                        <input type="text" class="form-control" id="board-name" name="boardTitleInp">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit"  class="btn btn-primary js-board-add">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container board_container"></div>
+
+<div
+        class="modal modal-card fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    Card
+                </h5>
+                <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label"
+                        >Title:</label
+                        >
+                        <textarea
+                                class="form-control"
+                                id="message-text"
+                                name="boardtitle"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
+
+
+{#<button   class="" id=""         >  innerHTML      innerText  dreapta stanga  </button>#}

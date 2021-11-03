@@ -1,0 +1,40 @@
+.board_container {
+    display: grid;
+    background-color: lightpink;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-gap: 25px;
+}
+
+.board {
+    border: solid 2px #d021c4;
+    background-color: #fa9d9d;
+}
+
+.statusesContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.statusesContainer.hidden {
+    display: none;
+}
+
+.statusColumn {
+    border: solid 1px #d021c4;
+    border-top: solid 2px #d021c4;
+}
+
+.dropDownButton {
+    float: right;
+}
+
+.card {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+body {
+    /*background-color: lightpink;*/
+}
