@@ -30,6 +30,10 @@ Proman is a single page application project where we have multiple boards and we
 - JS
 
 ## About the project
+- This is a project that uses Flask to handle requests
+- To make it an SPA we used JS on the buttons and we use AJAX with the Fetch API
+- The data is stored in csv files and updated as needed
+- The extremely beautiful coloristic is the result of a team of three girls (=｀ω´=) (＾º◡º＾❁) (=^-ω-^=)
 
 ## Overview
 - Mainpage</br>
@@ -41,7 +45,7 @@ Proman is a single page application project where we have multiple boards and we
 - Card modal</br>
 ![Image](https://i.imgur.com/LNzpSdd.png)</br>
 
-- Collapsed board 
+- Collapsed board </br>
 Before clicking v on board 3:</br>
 ![Image](https://i.imgur.com/EuyMzDw.png)</br>
 
@@ -59,5 +63,5 @@ This project was developed in PyCharm but you can run it on Visual Studio Code a
 
 3. Open the project and run it from the ```main.py``` file.
 
-4. Click on the link provided and try it out!
+4. Click on the link provided and try it out!</br>
 ![Image](https://i.imgur.com/Wv8NIyh.png)
