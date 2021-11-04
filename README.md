@@ -48,7 +48,6 @@ Proman is a single page application project where we have multiple boards and we
 - Collapsed board </br>
 Before clicking v on board 3:</br>
 ![Image](https://i.imgur.com/EuyMzDw.png)</br>
-
 After:</br>
 ![Image](https://i.imgur.com/9MGP5Kd.png)</br>
 
